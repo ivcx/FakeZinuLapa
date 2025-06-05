@@ -7,5 +7,5 @@ import router from './router'
 const app = createApp(App)
 
 app.use(router)
-
+document.title = "LLZP" 
 app.mount('#app')

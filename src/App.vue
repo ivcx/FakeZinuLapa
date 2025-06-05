@@ -13,7 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
         </div>
       </nav>
     </div>
-    <div class="border-t-4 border-[#C1121F] w-full">
+    <div class="border-t-4 border-[#C1121F] w-full pb-8">
       <div class=" float-end font-semibold text-xl">Latvijas Labākais Ziņu portāls</div>
     </div>
   </header>
@@ -28,7 +28,6 @@ import { RouterLink, RouterView } from 'vue-router'
 header{
   width: 100%;
   max-height: 5rem;
- 
 }
 
 nav{
