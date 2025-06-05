@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+#app {
+  padding: 0rem 5rem;
+  font-weight: normal;
+}
