@@ -7,5 +7,5 @@ import router from './router'
 const app = createApp(App)
 
 app.use(router)
-document.title = "LLZP" 
+document.title = "Latvijas Neuzticamo ziņu portāls" 
 app.mount('#app')
