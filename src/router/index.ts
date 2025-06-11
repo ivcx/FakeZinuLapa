@@ -6,7 +6,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
+      path: '/nepatiesas_zinas',
       name: 'home',
       component: HomeView,
     },
@@ -26,7 +26,7 @@ const router = createRouter({
       component: () => import('../views/Bagati.vue'),
     },
         {
-      path: '/nepatiesas_zinas',
+      path: '/nepatiesas_zinas_balva',
       name: 'nepatiesas_zinas',
       component: () => import('../views/NepatiesasZinas.vue'),
     },
